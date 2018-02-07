@@ -21,7 +21,7 @@ public class DcController {
         //eureka-client,ribbon内置拦截器会替换eureka-client服务对应host
         String url = "http://eureka-client/dc";
         String result = restTemplate.getForObject(url, String.class);
-        System.out.println("get message from client dc" + result);
+        System.out.println("get message from client dc by ribbon :" + result);
         return result;
     }
 }
