@@ -1,7 +1,8 @@
-# springcloud
-springcloud learning demo
+# springcloud learning demo by soogbo
 
 # springcloud netflix consul eureka ribbon feign config 
+
+# xyz-springcloud作为父模块，分模块实现各服务demo
 
 # 各服务路径端口：
 eureka-server：http://127.0.0.1:1001/
