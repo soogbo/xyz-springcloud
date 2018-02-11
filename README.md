@@ -1,6 +1,6 @@
 # springcloud learning demo by soogbo
 
-# springcloud netflix consul eureka ribbon feign config 
+# springcloud netflix consul eureka ribbon feign config hystrix
 
 # xyz-springcloud作为父模块，分模块实现各服务demo
 
@@ -12,6 +12,7 @@ eureka-consumer-ribbon：http://127.0.0.1:2201/
 eureka-consumer-feign：http://127.0.0.1:2301/
 config-server-git：http://127.0.0.1:1201/
 config-client：http://127.0.0.1:2001/
+eureka-consumer-ribbon-hystrix：http://127.0.0.1:2401/
 
 
 # config-client-demo 连接测试：启动config-server-git
