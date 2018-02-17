@@ -13,6 +13,9 @@ eureka-consumer-feign：http://127.0.0.1:2301/
 config-server-git：http://127.0.0.1:1201/
 config-client：http://127.0.0.1:2001/
 eureka-consumer-ribbon-hystrix：http://127.0.0.1:2401/
+eureka-consumer-ribbon-hystrix：http://127.0.0.1:2401/hystrix.stream
+hystrix-dashboard：http://127.0.0.1:1301/hystrix
+
 
 
 # config-client-demo 连接测试：启动config-server-git
