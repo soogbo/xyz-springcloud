@@ -16,6 +16,7 @@ eureka-consumer-ribbon-hystrix：http://127.0.0.1:2401/
 eureka-consumer-ribbon-hystrix：http://127.0.0.1:2401/hystrix.stream
 hystrix-dashboard：http://127.0.0.1:1301/hystrix	
 turbine：http://127.0.0.1:8989/turbine.stream
+turbine-amqp：http://127.0.0.1:8989/turbine.stream need mqserver
 
 
 # config-client-demo 连接测试：启动config-server-git
