@@ -14,15 +14,15 @@ config-server-git：http://127.0.0.1:1201/
 config-client：http://127.0.0.1:2001/
 eureka-consumer-ribbon-hystrix：http://127.0.0.1:2401/
 eureka-consumer-ribbon-hystrix：http://127.0.0.1:2401/hystrix.stream
-hystrix-dashboard：http://127.0.0.1:1301/hystrix
-
+hystrix-dashboard：http://127.0.0.1:1301/hystrix	
+turbine：http://127.0.0.1:8989/turbine.stream
 
 
 # config-client-demo 连接测试：启动config-server-git
 http://127.0.0.1:1201/config-client/dev/master
 
 # config-client客户端连接服务端获取配置中心配置：启动config-server-git config-client
-http://127.0.0.1:2001/info 测试无效
+http://127.0.0.1:1202/info 测试无效
 两种方式获取配置文件中对应key的值：
-http://127.0.0.1:2001/config-client/gitvalue
-http://127.0.0.1:2001/config-client/gitenv
+http://127.0.0.1:1202/config-client/gitvalue
+http://127.0.0.1:1202/config-client/gitenv

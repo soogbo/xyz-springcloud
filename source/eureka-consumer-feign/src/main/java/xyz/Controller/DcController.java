@@ -16,7 +16,7 @@ public class DcController {
     public String dc() {
         String result = dcClient.dc();
         System.out.println("get message from feign client dc by feign :" + result);
-        return result;
+        return "consumer-feign:" + result;
     }
 
 }
